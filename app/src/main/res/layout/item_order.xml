@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/order_background"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/textOrderNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Commande n° 1"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textClientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom du client: XYZ"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/textDeliveryAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Addresse: XYZ"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: En cours"
+        android:textSize="14sp"
+        android:textColor="@android:color/holo_blue_light"/>
+</LinearLayout>
